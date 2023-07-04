@@ -39,3 +39,6 @@ export const defaultItems=[
         mask:"/images/GozineMask3.svg",
     },
 ]
+
+
+const s = <div></div>;
