@@ -48,6 +48,7 @@ console.log(userData);
   }
 
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const handleChangeIsReady = (index:number)=>{
     const newLevelsStatus = JSON.parse(JSON.stringify(levelsStatus));
     

@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 
 const mediaBoxView = () => {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const {levels} = useLevelsStatus();
 
     const selectedLevelIndex = levels?.findIndex(
@@ -54,6 +55,7 @@ currentLevel.type == 'اسلاید' ? currentLevel.slide.video:
 currentLevel.createWord.video
 ;
 
+// eslint-disable-next-line react-hooks/rules-of-hooks
 const audioRef = useRef<HTMLAudioElement>(null);
 
 console.log(image);
