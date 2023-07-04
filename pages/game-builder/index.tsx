@@ -1,22 +1,22 @@
 import React from "react";
-import AudioModal from "./components/modals/AudioModal";
-import SettingsModal from "./components/modals/SettingsModal";
-import AddImageModal from "./components/modals/AddImageModal";
-import AddLevelModal from "./components/modals/AddLevelModal";
-import Layout from "./components/Layout";
-import ChaharGozine from "./components/levelTypes/fourChoice/ChaharGozine";
-import useLevels from "./hooks/useLevels";
-import TrueFalse from "./components/levelTypes/trueFalse/TrueFalse";
-import SequenceAndOrder from "./components/levelTypes/sequenceAndOrder/SequenceAndOrder";
-import Pairing from "./components/levelTypes/pairing/Pairing";
-import Descriptive from "./components/levelTypes/descriptive/Descriptive";
+import AudioModal from "../../components/game-builder/components/modals/AudioModal";
+import SettingsModal from "../../components/game-builder/components/modals/SettingsModal";
+import AddImageModal from "../../components/game-builder/components/modals/AddImageModal";
+import AddLevelModal from "../../components/game-builder/components/modals/AddLevelModal";
+import Layout from "../../components/game-builder/components/Layout";
+import ChaharGozine from "../../components/game-builder/components/levelTypes/fourChoice/ChaharGozine";
+import useLevels from "../../components/game-builder/hooks/useLevels";
+import TrueFalse from "../../components/game-builder/components/levelTypes/trueFalse/TrueFalse";
+import SequenceAndOrder from "../../components/game-builder/components/levelTypes/sequenceAndOrder/SequenceAndOrder";
+import Pairing from "../../components/game-builder/components/levelTypes/pairing/Pairing";
+import Descriptive from "../../components/game-builder/components/levelTypes/descriptive/Descriptive";
 
-import DialogBox from "./components/levelTypes/dialogBox/DialogBox";
-import Blank from "./components/levelTypes/blank/Blank";
-import DragAndDrop from "./components/levelTypes/dragAndDrop/DragAndDrop";
-import CreateWord from "./components/levelTypes/createWord/CreateWord";
-import Slide from "./components/levelTypes/slide/Slide";
-import GameDetails from "./hooks/GameDetails";
+import DialogBox from "../../components/game-builder/components/levelTypes/dialogBox/DialogBox";
+import Blank from "../../components/game-builder/components/levelTypes/blank/Blank";
+import DragAndDrop from "../../components/game-builder/components/levelTypes/dragAndDrop/DragAndDrop";
+import CreateWord from "../../components/game-builder/components/levelTypes/createWord/CreateWord";
+import Slide from "../../components/game-builder/components/levelTypes/slide/Slide";
+import GameDetails from "../../components/game-builder/hooks/GameDetails";
 
 
 const GameBuilderApp = () => {

@@ -1,25 +1,25 @@
 import React, { useEffect} from 'react'
-import Layout from './components/Layout'
-import FourChoiceLevel from './components/LevelTypes/fourChoiceLevel/FourChoiceLevel';
-import useLevelsStatus, { LevelStatus } from './hooks/useLevelsStatus';
-import useUserData from './hooks/useUserData'
+import Layout from '../../components/game-view/components/Layout'
+import FourChoiceLevel from '../../components/game-view/components/LevelTypes/fourChoiceLevel/FourChoiceLevel';
+import useLevelsStatus, { LevelStatus } from '../../components/game-view/hooks/useLevelsStatus';
+import useUserData from '../../components/game-view/hooks/useUserData'
 import _ from 'lodash';
 import { useQuery } from 'react-query';
 import axios from 'axios';
 import Image from 'next/image';
-import TrueFalseLevel from './components/LevelTypes/trueFalseLevel/TrueFalseLevel';
-import MultipleChoiceLevel from './components/LevelTypes/multipleChoice/MultipleChoiceLevel';
-import SequenceAndOrderLevel from './components/LevelTypes/sequenceAndOrderLevel/SequenceAndOrderLevel';
-import DragAndDropLevel from './components/LevelTypes/dragAndDropLevel/DragAndDropLevel';
-import DialogBoxLevel from './components/LevelTypes/dialogBoxLevel/DialogBoxLevel';
-import BlankLevel from './components/LevelTypes/blankLevel/BlankLevel';
-import DescriptiveLevel from './components/LevelTypes/descriptiveLevel/DescriptiveLevel';
-import PairingLevel from './components/LevelTypes/pairingLevel/PairingLevel';
-import CreateWordLevel from './components/LevelTypes/createWordLevel/CreateWordLevel';
-import RightSideBarTimer from './components/RightSideBarTimer';
-import GameViewRightSideBar from './components/Layout/GameViewRightSideBar';
-import SlideLevel from './components/LevelTypes/slideLevel/slideLevel';
-import MediaBoxView from './components/mediaBoxView';
+import TrueFalseLevel from '../../components/game-view/components/LevelTypes/trueFalseLevel/TrueFalseLevel';
+import MultipleChoiceLevel from '../../components/game-view/components/LevelTypes/multipleChoice/MultipleChoiceLevel';
+import SequenceAndOrderLevel from '../../components/game-view/components/LevelTypes/sequenceAndOrderLevel/SequenceAndOrderLevel';
+import DragAndDropLevel from '../../components/game-view/components/LevelTypes/dragAndDropLevel/DragAndDropLevel';
+import DialogBoxLevel from '../../components/game-view/components/LevelTypes/dialogBoxLevel/DialogBoxLevel';
+import BlankLevel from '../../components/game-view/components/LevelTypes/blankLevel/BlankLevel';
+import DescriptiveLevel from '../../components/game-view/components/LevelTypes/descriptiveLevel/DescriptiveLevel';
+import PairingLevel from '../../components/game-view/components/LevelTypes/pairingLevel/PairingLevel';
+import CreateWordLevel from '../../components/game-view/components/LevelTypes/createWordLevel/CreateWordLevel';
+import RightSideBarTimer from '../../components/game-view/components/RightSideBarTimer';
+import GameViewRightSideBar from '../../components/game-view/components/Layout/GameViewRightSideBar';
+import SlideLevel from '../../components/game-view/components/LevelTypes/slideLevel/slideLevel';
+import MediaBoxView from '../../components/game-view/components/mediaBoxView';
 import { Collapse } from '@mui/material';
 
 
