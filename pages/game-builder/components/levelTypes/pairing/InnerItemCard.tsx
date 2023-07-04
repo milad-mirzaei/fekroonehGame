@@ -142,7 +142,7 @@ const InnerItemCard:React.FC<InnerCardProps> = ({item,parentIndex,index}) => {
             cursor-pointer w-[30px] h-[30px] flex justify-center items-center  `}
           onClick={() =>{addImageModal.onOpen('pairing',parentIndex,index)}}
         >
-          <img
+          <Image
             src="/images/addImage.svg"
             alt=""
             width={pairingItems.length == 5 ? 27 : pairingItems.length == 6 ? 27 :pairingItems.length == 8?25 :30}

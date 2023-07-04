@@ -4,6 +4,7 @@ import PremiumButton from "../../premiumButton";
 import QuestionBox from "../../QuestionBox";
 import MediaBox from "../../MediaBox";
 import GameDetails from "../../../hooks/GameDetails";
+import Image from "next/image";
 
 const Descriptive = () => {
   const {levels,onChangeLevel,currentLevelIndex,descrriptiveSetMainAnswer,descriptiveSetOtherAnswers,descriptiveAddAnswer,descriptiveDeleteAnswer} = GameDetails();
@@ -81,7 +82,7 @@ const Descriptive = () => {
               className="w-[38px] h-[38px] rounded-full border-[3px] border-white flex items-center justify-center cursor-pointer"
               onClick={()=>{document.getElementById('mainAnswerInput')?.focus()}}
             >
-              <img src="images/edit.svg" alt="" />
+              <Image src="images/edit.svg" alt="" />
             </div>
           </div>
           <div className="flex flex-col h-[700px] w-[757px] ml-[15px] pl-[15px] overflow-auto gap-2 ">
@@ -108,14 +109,14 @@ const Descriptive = () => {
                        className="w-[38px] h-[38px] rounded-full border-[3px] border-white flex items-center justify-center cursor-pointer"
                       onClick={()=>{document.getElementById(`input ${index}`)?.focus()}}
                     >
-                      <img src="images/edit.svg" alt="" />
+                      <Image src="images/edit.svg" alt="" />
                     </div>
                     {index !== 0 &&
                     <div
                     className="w-[38px] h-[38px] rounded-full border-[3px] border-white  flex items-center justify-center"
                     onClick={()=>descriptiveDeleteAnswer(index)}
                   >
-                    <img src="images/closecircle2.svg" alt="" />
+                    <Image src="images/closecircle2.svg" alt="" />
                   </div>
                     }
                   </div>

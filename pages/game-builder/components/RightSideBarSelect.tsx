@@ -111,7 +111,7 @@ const RightSideBarSelect: React.FC<RightSideBarSelectProps> = ({
       className="flex flex-col justify-start items-start w-full gap-2  transition-all duration-300 "
     >
       <div className="flex justify-start items-center gap-2 pr-5 transition-all duration-300">
-        <img src={titleIcon} alt="gamepad" />
+        <Image src={titleIcon} alt="gamepad" />
         <p className="text-[13px] text-white text-opacity-50 font-semibold">{title}</p>
       </div>
       <div
@@ -150,7 +150,7 @@ const RightSideBarSelect: React.FC<RightSideBarSelectProps> = ({
               </p>
             </div>
             <div className=" w-[31px] h-[24px] ml-[20px] mt-1 rounded-[14px] bg-[#DEDFEA40] bg-opacity-25  flex items-center justify-center">
-              <img
+              <Image
                 className={`${
                   isOpen && "rotate-180"
                 } transition-all duration-300`}

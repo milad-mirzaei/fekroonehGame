@@ -3,6 +3,7 @@ import useLevels from "../hooks/useLevels";
 import useAddLevelModal from "../hooks/useAddLevelModal";
 import GameDetails, { Level } from "../hooks/GameDetails";
 import { v4 as uuidv4 } from "uuid";
+import Image from "next/image";
 interface LevelCardProps {
   index: number;
   level: Level;
@@ -80,7 +81,7 @@ const LevelCard: React.FC<LevelCardProps> = ({ index, level }) => {
           </p>
         </div>
         <div className="flex gap-[4px] justify-end  mr-0 mt-1">
-          <img
+          <Image
             onClick={(event) => {
               event.stopPropagation();
               copyLevel(index);
@@ -92,7 +93,7 @@ const LevelCard: React.FC<LevelCardProps> = ({ index, level }) => {
             }`}
             alt="copy"
           />
-          <img
+          <Image
             onClick={(event) => {
               event.stopPropagation();
               deleteLevel(index);
@@ -107,7 +108,7 @@ const LevelCard: React.FC<LevelCardProps> = ({ index, level }) => {
         </div>
       </div>
       <div className="absolute bottom-0 w-[202px] h-[117px] bg-[#F5F5F5]  rounded-[19px] flex justify-center items-center">
-        <img src={level.icon} alt="4gozine" />
+        <Image src={level.icon} alt="4gozine" />
       </div>
       {index !== levels.length - 1 && (
         <div className=" absolute hidden group-hover:flex items-center justify-center px-[10px] gap-[7px] transition-all duration-200  -bottom-[20px] left-[35px]  h-[35px] bg-black bg-opacity-75 rounded-[11px]">

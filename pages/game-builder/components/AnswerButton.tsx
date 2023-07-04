@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 
@@ -18,7 +19,7 @@ const AnswerButton:React.FC<AnswerButtonProps> = ({answers,color,icon,onClick}) 
             cursor-pointer w-[40px] h-[40px] flex justify-center items-center  `}
           onClick={onClick}
         >
-          <img
+          <Image
             src={icon}
             alt=""
             width={answers.length == 5 ? 27 : answers.length == 6 ?  27 :answers.length == 8?25 :30}

@@ -215,7 +215,7 @@ const AudioModal = () => {
         <div className=" w-[300px] flex justify-center ">
 
         <div className="relative w-[200px] h-[200px] group bg-purple-500 rounded-[30px] flex justify-center items-center">
-        <img
+        <Image
             src={`/${useMusics.musics[selectedMusicIndex].image}`}
             alt="image"
             className="w-[192px] h-[192px] rounded-[30px]"
