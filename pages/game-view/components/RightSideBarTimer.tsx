@@ -41,7 +41,7 @@ const RightSideBarTimer = () => {
    }
 
     return () => clearInterval(interval);
-  }, [count]); 
+  }, [count,currentLevel.type]); 
 
   useEffect(()=>{
    if(currentLevelStatus?.status == 'ready') {setCount(currentLevelStatus.levelTime);}
