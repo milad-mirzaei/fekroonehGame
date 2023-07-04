@@ -69,7 +69,8 @@ const RightSideBarTimer = () => {
         alt="timer"
         width={76}
         height={76}
-      /></div>
+      /></div> 
+      
       {/* <div
         className={`absolute top-[12px] flex justify-center items-center ${
           currentLevelStatus?.status == "ready" &&
