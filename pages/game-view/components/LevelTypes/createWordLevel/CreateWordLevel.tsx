@@ -96,7 +96,7 @@ const CreateWordLevel = () => {
     if (trueWords.length === guessedWords.length && guessedWords.length !== 0) {
       setWin(true);
     }
-  }, [guessedWords]);
+  }, [guessedWords,setWin,trueWords.length]);
 
   return (
     <div className="w-full flex flex-col justify-center items-center  gap-3 ">

@@ -18,6 +18,7 @@ const Blank = () => {
   //   (level) => level.isSelected == true
   // );
   const currentLevel = levels[currentLevelIndex];
+  const divRef = useRef<HTMLDivElement>(null);
 if(currentLevel.levelContent.type == "جای خالی"){
   const { phrase, extraAnswers, caretPosition, currentItemPosition } =
     currentLevel.levelContent.content! ;
@@ -71,7 +72,7 @@ if(currentLevel.levelContent.type == "جای خالی"){
   //   console.log(levels);
   // };
 
-  const divRef = useRef<HTMLDivElement>(null);
+ 
 
   console.log(divRef.current?.textContent);
 

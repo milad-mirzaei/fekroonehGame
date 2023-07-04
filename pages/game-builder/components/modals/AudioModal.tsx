@@ -82,6 +82,7 @@ const AudioModal = () => {
       <div className="flex flex-row justify-center gap-2">
         {useMusics.musics.map((item, index) => (
           <GameBgAudioCard
+          key={index}
             music={item.music}
             image={item.image}
             name={item.title}
@@ -126,7 +127,7 @@ const AudioModal = () => {
           />
         )}
         {useVoices.voices.map((item, index) => (
-          <div>
+          <div key={index}>
             <div className="flex flex-row items-center gap-2 justify-center">
               <div
                 className="w-[50px] h-[50px] group bg-neutral-200 rounded-[20px] cursor-pointer flex items-center justify-center"

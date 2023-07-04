@@ -32,7 +32,7 @@ const PairingLevel = () => {
 
     const shufItems = _.shuffle(items);
     setShuffledItems(shufItems);
-  }, []);
+  }, [pairingItems]);
 
   const currentLevelStatus = levelsStatus[selectedLevelIndex];
 
@@ -63,7 +63,7 @@ const PairingLevel = () => {
     ) {
       setWin(true);
     }
-  }, [foundPairs]);
+  }, [foundPairs,setWin,shuffledItems.length]);
 
   return (
     <div className="w-full h-full flex flex-col justify-center  items-center  gap-3">
