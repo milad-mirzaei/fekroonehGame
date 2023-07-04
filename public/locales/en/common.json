@@ -1,0 +1,30 @@
+{
+    "site_title": "Fekrooneh",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "finished": "Finished",
+    "currency": "Tomans",
+
+    "date_picker": {
+        "ok": "Ok",
+        "clear": "Clear",
+        "toolbar_title": "Pick a date",
+        "cancel": "Cancel",
+        "today": "Today"
+    },
+    "alerts": {
+        "not_found": "No items found",
+        "required": "This field is required",
+        "unknown_error": "Unknown error occured",
+        "min_characters": "Must be at least {{min, number}} characters",
+        "must_match_password": "Password and password repeat must match",
+        "wrong_format": "Wrong format",
+        "wrong_email": "Email format is wrong",
+        "wrong_mobile": "Mobile format is wrong"
+    },
+    "not_found": {
+        "description": "The page you were looking for is not found.",
+        "button": "Back to home"
+    }
+}

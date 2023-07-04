@@ -1,4 +1,8 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig } */
+const plugin =require("tailwindcss/plugin")
+
+
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -8,11 +12,25 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function({addUtilities}){
+      addUtilities({
+          ".my-rotate-y-180":{
+              transform:"rotateY(180deg)"
+          },
+          ".preserve-3d":{
+              transformStyle:"preserve-3d"
+          },
+          ".perspective":{
+              perspective:"1000px"
+          },
+          ".backface-hidden":{
+              backfaceVisibility:"hidden"
+          }
+      })
+  })
+  ],
 }

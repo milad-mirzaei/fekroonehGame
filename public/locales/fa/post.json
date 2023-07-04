@@ -1,0 +1,22 @@
+{
+    "hot_hash_title": "هشتگ های داغ:",
+    "newest_post_title": "جدید ترین مطالب",
+    "read_more": "بیشتر بخوانید",
+    "most_viewed_title": "پر بازدیدترین های هفته",
+    "comment_text": "{{comments,number}} نظر",
+    "hashtag_format": "#{{title}}",
+    "person_text": "{{views,number}} نفر",
+    "load_more": "بارگذاری بیشتر",
+    "comments_title": "دیدگاه ها",
+    "share_this": "این مطلب را به اشتراک بزارید",
+    "follow_us": "ما را دنبال کنید",
+    "top_post": "برترین مطالب",
+    "write_comment": "دیدگاهتان را بنویسید",
+    "write_comment_hint": "نشانی ایمیل شما منتشر نخواهد شد. بخش‌های موردنیاز علامت‌گذاری شده‌اند*",
+    "send_comment": "فرستادن دیدگاه",
+    "comment_form": {
+        "email": "ایمیل*",
+        "name": "نام*",
+        "text": "دیدگاه*"
+    }
+}

@@ -1,0 +1,439 @@
+{
+  "banner_text": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است",
+  "all": "همه",
+  "site_title": "فکرونه",
+  "hours": "ساعت",
+  "buy": "خرید",
+  "session": "جلسه",
+  "wallet": "کیف پول",
+  "soon": "بزودی...",
+  "minutes": "دقیقه",
+  "directing": "درحال انتقال به درگاه...",
+  "created_at": "ساخته شده در",
+  "seconds": "ثانیه",
+  "day": "روز",
+  "no_options": "موردی یافت نشد!!",
+  "apk_download": "دانلود اپلیکشن فکرونه",
+  "charge_wallet_msg": "شارژ كيف پول يه مبلغ {{amount}} تومان",
+  "complete_profile": {
+    "text": "با تکمیل پروفایل {{coin,number}} عدد سکه دریافت کن",
+    "button": "تکمیل پروفایل کاربری"
+  },
+  "add_address": "آدرس جدید",
+  "cancel": "لغو",
+  "remove": "حذف",
+  "edit": "ویرایش",
+  "send_as_gift": "ارسال به صورت هدیه",
+  "available_address": "آدرس های ذخیره شده",
+  "month": "ماه",
+  "search_placeholder": "جستجو...",
+  "category_placeholder": "همه دسته ها",
+  "search": "جستجو",
+  "load_more": "نمایش بیشتر",
+  "loading": "در حال بارگذاری",
+  "finished": "تمام شد",
+  "coin": "سکه",
+  "currency": "تومان",
+  "number": "عدد",
+  "coin_count": "{{coin,number}} سکه",
+  "menu": "منو",
+  "no_address": "آدرس ذخیره شده ای یافت نشد!",
+  "see": "مشاهده",
+  "book_card": {
+    "vote_count": "تعداد رای:",
+    "no_title": "بدون اسم",
+    "success_bookmark": "کتاب {{title}} با موفقیت نشانک شد",
+    "success_favorite": "کتاب {{title}} با موفقیت لایک شد",
+    "success_bookmark_remove": "نشانک کتاب {{title}} برداشته شد",
+    "success_favorite_remove": "لایک کتاب {{title}} برداشته شد",
+    "view": "مشاهده",
+    "edit": "ویرایش",
+    "buy": "خرید"
+  },
+  "view_all": "بشتر ...",
+  "close": "بستن",
+  "hint": "راهنمایی:",
+  "publish": {
+    "fekrooneh": "انتشار درسایت فکرونه",
+    "coin": "سکه",
+    "festival": "شرکت در جشنواره"
+  },
+  "build_book": "کتاب بساز",
+  "nothing_found": "موردي يافت نشد!!",
+  "date_picker": {
+    "ok": "باشه",
+    "clear": "پاک کردن",
+    "toolbar_title": "انتخاب تاریخ",
+    "cancel": "لغو",
+    "today": "امروز"
+  },
+  "coupon": {
+    "redeem": "اعمال‌کد",
+    "first_place_reward": "جایزه نفر اول:",
+    "second_place_reward": "جایزه نفر دوم:",
+    "third_place_reward": "جایزه نفر سوم",
+    "entrance": "ورودی جشنواره",
+    "coin_wallet": "موجودي سکه",
+    "capacity": "ظرفیت ورود",
+    "hint": "با وارد کردن کد داده شده از طرف مدرسه میتونی از ما سکه جایزه دریافت کنی",
+    "placeholder": "کد جایزه",
+    "see_festival_book": "لیست کتاب‌ها جشنواره",
+    "success_redeem": "{{coin,number}} سکه با موفقیت به حساب شما افزوده شد. ",
+    "prizes": "جوایز",
+    "join_festival": "شرکت در جشنواره"
+  },
+  "delete_book_card": {
+    "button": "حذف کتاب",
+    "success": "کتاب شما با موفقیت حذف شد",
+    "title": "واقعا میخوای کتاب رو بندازی دور؟",
+    "submit": "آره",
+    "cancel": "نه، اصلا!"
+  },
+  "wallet_dialog": {
+    "import": {
+      "title": "افزایش موجودی کیف پول",
+      "description": "مبلغ مورد نظر جهت افزایش را وارد کنید. پس از پرداخت از طریق درگاه بانکی، اعتبار شما افزوده خواهد شد.",
+      "action": "افزایش موجودی"
+    },
+    "withdraw": {
+      "title": "برداشت موجودي كيف پول",
+      "description": "پس از تاييد درخواست شما پول به حساب بانكي ثبت شده واريز مي شود",
+      "action": "برداشت موجودي"
+    }
+  },
+  "alerts": {
+    "not_found": "موردی یافت نشد",
+    "empty_cart": "سبد خرید شما خالی است!",
+    "required": "این مورد ضروری است",
+    "unknown_error": "خطای نامشخص رخ داد",
+    "only_number": "عدد وارد کنید",
+    "min_characters": "باید حداقل {{min, number}} کارکتر باشد",
+    "max_characters": "باید حداکثر {{max, number}} کارکتر باشد",
+    "max_coin": "حداکثر مقداری که میتونی بزاری {{max, number}} سکه است",
+    "length": "شماره باید {{limit, number}} رقم باشد",
+    "must_match_password": "کلمه عبور و تکرار آن باید یکسان باشد",
+    "wrong_format": "فرمت اشتباه است",
+    "wrong_email": "فرمت ایمیل اشتباه است",
+    "wrong_mobile": "فرمت شماره موبایل اشتباه است",
+    "wrong_username": "فرمت نام کاربری اشتباه است",
+    "wrong_code": "کد اشتباه است"
+  },
+  "order": {
+    "success": "پرداخت شما با موفقیت انجام شد",
+    "error": "عملیات پرداخت ناموفق بود",
+    "success_hint": "خريد شما با موفقیت ثبت گردید",
+    "success_general": "رفتن به حساب کاربری",
+    "transaction_code": "کد تراکنش:"
+  },
+  "layouts": {
+    "header": {
+      "top_bar": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است",
+      "menu_items": {
+        "home": "خانه",
+        "book_builder": "کتاب ساز",
+        "game_builder": "بازی ساز",
+        "social_network": "شبکه اجتماعی",
+        "post": "مقالات",
+        "contact_us": "تماس با ما",
+        "about_us": "درباره ما",
+        "festival": "جشنواره",
+        "panel": "پنل کاربری",
+        "cart": "سبد خرید"
+      },
+      "actions": {
+        "login_register": "ثبت‌نام / ورود",
+        "cart": "سبد خرید",
+        "panel": "پنل کاربری"
+      }
+    },
+    "footer": {
+      "column_1": {
+        "home": "خانه",
+        "book_builder": "کتاب ساز",
+        "game_builder": "بازی ساز",
+        "social_network": "شبکه اجتماعی",
+        "contact_us": "تماس با ما",
+        "about_us": "درباره ما"
+      },
+      "column_2": {
+        "home": "خانه",
+        "book_builder": "کتاب ساز",
+        "game_builder": "بازی ساز",
+        "social_network": "شبکه اجتماعی",
+        "contact_us": "تماس با ما",
+        "about_us": "درباره ما"
+      },
+      "general_information": {
+        "address": "اصفهان، مجموعه اداری ۲۲ بهمن، مرکز پژوهش و فناوری دانشگاه آزاد استان اصفهان",
+        "telephones": ["۰۲۱۹۱۰۱۸۶۷۱", "۰۳۱۹۱۰۱۱۲۵۱"]
+      }
+    }
+  },
+  "not_found": {
+    "description": "صفحه ای که به دنبال آن بودید یافت نشد!",
+    "button": "بازگشت به خانه"
+  },
+  "backward_timer": {
+    "text": "دریافت مجدد کد تایید",
+    "button": "دریافت کد"
+  },
+  "coin_package": {
+    "title": "برای شارژ شدن قلکت یکی از بسته های زیر رو میتونی انتخاب کنی",
+    "off": "تخفیف",
+    "special": "ویژه",
+    "bag": "بسته",
+    "coin": "سکه",
+    "price": "قیمت",
+    "currency": "تومان",
+    "buy": "خرید",
+    "left_time": "زمان باقی مانده",
+    "gateway_dialog": {
+      "title": "نحوه پرداخت را انتخاب كنيد:",
+      "cancel": "لغو",
+      "submit": "پرداخت"
+    }
+  },
+  "user": {
+    "followers": "دنبال کنندگان",
+    "following": "دنبال شوندگان",
+    "product": "محصولات",
+    "bio": "درباره من",
+    "links": {
+      "dashboard": "پيشخوان",
+      "user_info": "اطلاعات کاربری",
+      "my-books": {
+        "created": "کتاب‌های ساخته‌شده من",
+        "index": "کتاب‌های من",
+        "favorite": "کتاب‌های موردعلاقه من",
+        "bookmark": "کتاب‌های نشانک‌‌‌شده من"
+      },
+      "my_games": "بازی‌های من",
+      "tickets": "پیام‌ها",
+      "orders": "سفارشات",
+      "addresses": "آدرس‌ها",
+      "publication_permission": "مجوز نشر",
+      "my_school": "مدرسه من",
+      "wallet": "کیف پول",
+      "logout": "خروج"
+    }
+  },
+  "buy_options": {
+    "cash": "تقدي",
+    "wallet": "كيف پول",
+    "coin": "سكه",
+    "printed_book_price": "قیمت نسخه چاپی",
+    "printed_book": "نسخه چاپی",
+    "digital_book": "نسخه دیجیتالی"
+  },
+  "gender": {
+    "man": "مرد",
+    "woman": "زن",
+    "girl": "دختر",
+    "boy": "پسر"
+  },
+  "address_list": {
+    "delete": {
+      "title": "حذف آدرس",
+      "description": "آیا از حذف این آدرس اطمینان دارید؟",
+      "submit_confirm": "حذف آدرس"
+    },
+    "edit": {
+      "title": "ویرایش آدرس",
+      "description": "برای ویرایش آدرس فیلد های مورد نظر را تغییر دهید",
+      "submit_confirm": "ویرایش آدرس"
+    },
+    "add": {
+      "title": "افزودن آدرس",
+      "description": "برای افزودن آدرس اطلاعات زیر را تکمیل کنید",
+      "submit_confirm": "افزودن آدرس"
+    },
+    "form": {
+      "postal_code_label": "کد پستی گیرنده",
+      "address_label": "آدرس تحویل گیرنده",
+      "full_name_label": "نام و نام خانوادگی گیرنده",
+      "provinces_label": "استان تحویل گیرنده",
+      "cities_label": "شهر تحویل گیرنده",
+      "phone_label": "شماره تماس گیرنده",
+      "postal_code_placeholder": "کد پستی",
+      "address_placeholder": "آدرس تحویل",
+      "full_name_placeholder": "نام و نام خانوادگی",
+      "provinces_placeholder": "استان تحویل",
+      "cities_placeholder": "شهر تحویل",
+      "phone_placeholder": "شماره تماس"
+    }
+  },
+  "coin_buy": {
+    "title": "خرید کتاب با سکه",
+    "cart_description": "آیتم از سبد خرید شما حذف خواهد شد.",
+    "description": "پس از خريد كتاب ميتوانيد آن را به صورت كامل مطالعه كنيد",
+    "buy_action": "خرید",
+    "cancel": "لغو"
+  },
+  "auth_role_attribute": {
+    "title": "نقش کاربر",
+    "description": "خودت رو اینجا معرفی کن"
+  },
+  "auth_set_profile": {
+    "title": "بزار بیشتر بشناسنت",
+    "earned_coin": "برای اینکه آشنا شدیم از ما {{coin,number}} سکه جایزه بگیر",
+    "description": "همیشه تصاویر به یادماندنی تر از اسمه"
+  },
+  "auth_general_info": {
+    "title": "مشخصات کاربر",
+    "description": "موارد پایین را با دقت پر کن.",
+    "username": {
+      "label": "نام کاربری",
+      "placeholder": "نمونه: al!rez@8932",
+      "hint": "راهنمایی: نام کاربری می‌تواند شامل حروف انگلیسی، اعداد و نماد‌ها باشد"
+    },
+    "fullName": {
+      "label": "نام و نام‌خانوادگی",
+      "placeholder": "نمونه: محمد محسن حسینی"
+    },
+    "grade": "مقطع تحصیلی",
+    "birthday": "تاریخ تولد",
+    "gender": "جنسبت",
+    "province": "استان",
+    "city": "شهر"
+  },
+  "auth_question": {
+    "title": "بذار بیشتر بشناسیمت",
+    "description": "هر چند تا از گزینه های زیر که باهات جوره رو انتخاب کن"
+  },
+
+  "profile_picture": {
+    "title": "عکس پروفایل",
+    "save_changes": "ثبت تغییرات",
+    "success_upload": "عکس پروفایل با موفقیت آپلود شد",
+    "success_avatar": "آواتار مورد نظر برای پورفایل تعیین شد",
+    "preview": "پیش نمایش",
+    "description": "یک عکس دلخواه یا آواتار برای پروفایل خود انتخاب کنید.",
+    "upload_hint": "عکس مورد نظر را بر روی مستطیل بکشید",
+    "upload_button": "انتخاب عکس از فایل ها",
+    "categories": {
+      "girl": "آواتارها دخترانه",
+      "boy": "آواتارها پسرانه",
+      "man": "آواتارها مردانه",
+      "woman": "آواتارها زنانه",
+      "genderless": "آواتارها باحال"
+    }
+  },
+  "login_process": {
+    "close_button": "فعلا نه!",
+    "buttons": {
+      "intro": "بزن بریم ...",
+      "continue": "ادامه",
+      "submit": "ثبت",
+      "login": "ورود",
+      "register": "ثبت نام",
+      "panel_link": "بروبه پروفایل کاربری",
+      "book_builder_link": "بروبه کتاب‌ساز",
+      "cart_link": "بروبه سبد خرید",
+      "back": "بازگشت",
+      "set-profile": "یه پروفایل بزار",
+      "complete_profile": "بزار بشناسیمت تا سکه هدیه بگیری"
+    },
+    "intro": {
+      "title": "فکرونه چیه؟",
+      "description": "فکرونه یه شبکه‌ي اجتماعی باحال و دوست داشتنی واسه کتاب و بازی و مسابقه هست. توی فکرونه می‌تونی کتاب بسازی یا بخونی، بازی بسازی یا انجام بدی و مسابقه شرکت کنی و حتی کسب درآمد داشته باشی."
+    },
+    "send_code": {
+      "title": "ثبت نام / ورود",
+      "login": "ورود",
+      "register": "ثبت نام",
+      "description": "جهت ورود به سایت شماره موبایل خود را وارد کنید",
+      "r_description": "برای ثبت نام اطلاعات زیر را کامل کن",
+      "placeholder": "۰۹۱۲۳۴۵۶۷۸۹ :مثال",
+      "label": "شماره موبایل",
+      "f_name": "نام",
+      "l_name": "نام خانوادگی",
+      "first_time": "بار اولته؟ ثبت نام کن!"
+    },
+    "get_code": {
+      "title": "ورود به فکرونه",
+      "description": "کد پیامک شده برای شماره موبایل {{phone}} را وارد کنید",
+      "placeholder": "*",
+      "label": "کد"
+    },
+    "set_password": {
+      "title": "تعیین رمز عبور",
+      "description": "برای حساب کاربری خود یک رمز عبور تعیین کنید.",
+      "new_password": {
+        "placeholder": "رمز عبور جدید",
+        "label": "رمز عبور"
+      },
+      "repeat_password": {
+        "placeholder": "تکرار رمز عبور",
+        "label": "تکرار رمز عبور"
+      }
+    },
+    "get_password": {
+      "title": "فکرونه",
+      "description": "لطفا رمز عبور تعیین شده را وارد کنید.",
+      "placeholder": "رمز عبور",
+      "one_time_password": "ورود با رمز یکبار مصرف",
+      "label": "رمز عبور"
+    },
+    "login_navigation": {
+      "title": "به فکرونه خوش اومدی",
+      "welcome": "خوش اومدی فکرونه‌ای عزیز!",
+      "description": "بهت تبریک میگم تو الان یه فکرونه‌ای هستی"
+    }
+  },
+  "change_phone_process": {
+    "close_button": "فعلا نه!",
+    "buttons": {
+      "continue": "ادامه",
+      "submit": "ثبت",
+      "complete": "تاييد",
+      "back": "بازگشت"
+    },
+    "new_phone": {
+      "title": "شماره جديد را وارد كنيد",
+      "description": "توجه داشته باشید بعد از تایید شماره جدید برای ورود باید از این شماره استفاده کنید",
+      "placeholder": "۰۹۱۲۳۴۵۶۷۸۹",
+      "label": "شماره موبایل"
+    },
+    "get_code": {
+      "title": "تایید شماره جدید",
+      "description": "کد پیامک شده برای شماره موبایل {{phone}} را وارد کنید",
+      "placeholder": "*",
+      "label": "کد"
+    },
+    "change_phone_confirm": {
+      "title": "به فکرونه خوش اومدی",
+      "description": "شما با موفقیت شماره جدید خود را ثبت کردید."
+    }
+  },
+  "side_navigation": {
+    "panel": {
+      "panel": "پنل کاربری",
+      "wallet": "کیف پول",
+      "messages": {
+        "title": "پیام ها",
+        "notifications_and_supports": "اطلاعیه ها و پشتیبانی",
+        "groups": "گروه ها",
+        "users": "کاربران"
+      },
+      "publish_License_request": "درخواست مجوز نشر",
+      "orders": "سفارشات",
+      "reports": "گزارش گیری فعالیت",
+      "lucky_wheel": "گردونه شانس",
+      "league": "لیگ ها",
+      "improvement": "توسعه"
+    },
+    "book_builder": {
+      "backgrounds": "پس زمینه",
+      "element": "المان ها",
+      "vector": "وکتور ها",
+      "dialog_box": "دیالوگ باکس",
+      "character_builder": "شخصیت ساز",
+      "text": "متن",
+      "page_layout": "قالب صفحه",
+      "paint": "نقاشی",
+      "sound": "افزودن صدا",
+      "upload": "بارگذاری"
+    },
+    "game_builder": {}
+  }
+}

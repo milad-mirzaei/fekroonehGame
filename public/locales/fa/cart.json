@@ -1,0 +1,55 @@
+{
+    "cart_title": "سبد خرید شما",
+    "address_title": "اطلاعات ارسال",
+    "confirmation_title": "تایید نهایی",
+    "payment_title": "پرداخت",
+    "product_name": "نام محصول:",
+    "product_price": "قیمت محصول:",
+    "confirm": "تایید",
+    "pay": "تائید و پرداخت",
+    "success_order_msg": "سفارش با موفقیت ثبت شد",
+    "success_pay_msg": "در حال اتصال به درگاه",
+    "next_step": "مرحله بعد",
+    "payment_button": "پرداخت",
+    "previous_step": "بازگشت",
+    "gift_address_title": "اطلاعات ارسال هدیه",
+    "submit_gift_address": "ثبت آدرس هدیه",
+    "update_cart": "به روز رسانی سبد",
+    "delete_cart": "حذف",
+    "register_cart": "ثبت سفارش",
+    "delete_success": {
+        "single": "آیتم مورد نظر حذف شد.",
+        "multiple": "آیتم های مورد نظر حذف شدند."
+    },
+    "suggestion": {
+        "title": "پیشنهادات فکرونه برای شما",
+        "description": "با توجه به محصولات انتخابی ممکن است این محصولات را بپسندید"
+    },
+    "factor": {
+        "title": "مجموع خرید:",
+        "shipping_price": "هزینه ارسال:",
+        "pay_price": "مجموع خرید:"
+    },
+    "stepper": {
+        "cart": "سبد خرید",
+        "address_info": "اطلاعات ارسالی",
+        "confirmation": "تایید نهایی",
+        "payment": "پرداخت"
+    },
+    "cart_list_secondary": {
+        "title": "سبد خرید شما",
+        "product_count": "({{count,number}} محصول)"
+    },
+    "cart_receiver_address_title": "مشخصات تحویل گیرنده",
+    "description_form": {
+        "title": "توضیحات",
+        "placeholder": "توضیحات اضافی در مورد خرید خود را شرح دهید"
+    },
+    "discount_form": {
+        "title": "کد تخفیف",
+        "placeholder": "کد تخفیف",
+        "submit": "اعمال",
+        "applied": "شما یک کد تخفیف به ارزش {{amount, number}} تومان فعال کرده‌اید.",
+        "delete_discount_code": "حذف کد تخفیف"
+    }
+}

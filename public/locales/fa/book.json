@@ -1,0 +1,26 @@
+{
+    "author": "نویسنده:",
+    "pages": "صفحه",
+    "comment_title": "دیدگاه",
+    "comment_form": {
+        "name": "نام و نام خانوادگی",
+        "comment": "دیدگاه",
+        "submit": "ارسال",
+        "success": "کامنت شما ثبت شد و پس از بررسی برروی سایت قرار میگیرد"
+    },
+    "action": {
+        "success_bookmark": "کتاب با موفقیت نشانک شد",
+        "success_favorite": "کتاب با موفقیت لایک شد",
+        "success_bookmark_remove": "نشانک کتاب برداشته شد",
+        "success_favorite_remove": "لایک کتاب برداشته شد"
+    },
+    "pagination": {
+        "cover": "جلد",
+        "front_cover": "رو جلد",
+        "back_cover": "پشت جلد",
+        "with_text": "{{page, number}} صفحه",
+        "current_page": "صفحه {{page}}"
+    },
+
+    "success_add_cart_item": "محصول با موفقیت به سبد خرید اضافه شد."
+}
