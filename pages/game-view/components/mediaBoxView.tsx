@@ -57,7 +57,7 @@ currentLevel.createWord.video
 
 // eslint-disable-next-line react-hooks/rules-of-hooks
 const audioRef = useRef<HTMLAudioElement>(null);
-
+  
 console.log(image);
   return (
     <div className='w-[350px] h-[350px] mb-[50px] flex justify-center items-center rounded-[20px] bg-white bg-opacity-50 backdrop-blur-3xl drop-shadow-2xl'>
